@@ -1,0 +1,35 @@
+{
+  "name": "@considonet/postcss-config",
+  "version": "1.0.0",
+  "description": "Default opinionated PostCSS preset for ConsidoNet projects",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/considonet/postcss-config.git"
+  },
+  "keywords": [
+    "postcss"
+  ],
+  "author": "Paweł Gabryelewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/considonet/postcss-config/issues"
+  },
+  "homepage": "https://github.com/considonet/postcss-config#readme",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^7.0.0"
+  },
+  "dependencies": {
+    "cssnano": "^4.1.10",
+    "postcss-easings": "^2.0.0",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-normalize": "^8.0.1",
+    "postcss-preset-env": "^6.7.0"
+  }
+}
